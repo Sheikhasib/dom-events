@@ -8,6 +8,13 @@
 </head>
 <body>
     <h1 onclick="alert('valo hoite paisa lagena!!')">Event niye Click er khela shuru</h1>
-    <button onclick="document.body.style.backgroundColor='yellow'">Click Me</button>
+    <button onclick="document.body.style.backgroundColor='yellow'">Click Me: Yellow</button>
+    <button onclick="makeRed()">Click Me: Red</button>
+    <button id="make-blue-button">Click Me: Blue</button>
+    <script src="js/events.js"></script>
+    <script>
+        const blueButton = document.getElementById('make-blue-button');
+        console.log(blueButton);
+    </script>
 </body>
 </html>
