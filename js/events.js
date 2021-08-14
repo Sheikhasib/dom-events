@@ -32,7 +32,13 @@ function makeGoldenRod(){
 
 // addEventListener
 
-const hotpinkButton = document.getElementById('make-hotpink');
-hotpinkButton.addEventListener('click', function makePink(){
+const hotPinkButton = document.getElementById('make-hotpink');
+hotPinkButton.addEventListener('click', function makePink(){
     document.body.style.backgroundColor = 'hotpink';
-})
+});
+
+// direct shortcut
+
+document.getElementById('light-blue').addEventListener('click', function(){
+    document.body.style.backgroundColor = 'lightblue';
+});
