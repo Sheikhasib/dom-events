@@ -20,3 +20,12 @@ const greenButton = document.getElementById('make-green-button');
 greenButton.onclick = function (){
     document.body.style.backgroundColor = 'green';
 }
+
+// handle by using addEventListener
+
+const goldenrodButton = document.getElementById('make-goldenrod');
+goldenrodButton.addEventListener('click', makeGoldenRod);
+
+function makeGoldenRod(){
+    document.body.style.backgroundColor = 'goldenrod';
+}
