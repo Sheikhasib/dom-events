@@ -29,3 +29,10 @@ goldenrodButton.addEventListener('click', makeGoldenRod);
 function makeGoldenRod(){
     document.body.style.backgroundColor = 'goldenrod';
 }
+
+// addEventListener
+
+const hotpinkButton = document.getElementById('make-hotpink');
+hotpinkButton.addEventListener('click', function makePink(){
+    document.body.style.backgroundColor = 'hotpink';
+})
