@@ -12,3 +12,11 @@ blueButton.onclick = makeBlue;
 function makeBlue(){
     document.body.style.backgroundColor = 'blue';
 }
+
+// handle event using anonymous function
+
+const greenButton = document.getElementById('make-green-button');
+// anonymous function
+greenButton.onclick = function (){
+    document.body.style.backgroundColor = 'green';
+}
